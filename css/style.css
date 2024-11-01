@@ -1,0 +1,383 @@
+/*Accordion Style One Start CSS*/
+.accordionStyle-one .panel{
+  border: 1px solid #e4e4e4;
+    box-shadow: none;
+    border-radius: 0px;
+    margin-bottom: 5px;
+}
+.accordionStyle-one .panel-group .panel-heading {
+background: #fff none repeat scroll 0 0;
+border-radius: 0;
+color: #373737;
+font-size: 24px;
+padding: 13px 15px;
+position: relative;
+}
+.accordionStyle-one h4.panel-title a {
+  display: block;
+}
+.accordionStyle-one .panel-group  h4.panel-title a.collapsed:after{
+    font-family: FontAwesome;
+    color: #000;
+    font-size: 14px;
+    right: 0px;
+    position: absolute;
+    z-index: 111;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    top: 0px;
+    text-align: center;
+    content: "";
+}
+.accordionStyle-one .panel-group  h4.panel-title a:after {
+    font-family: FontAwesome;
+    color: #000;
+    font-size: 14px;
+    right: 0px;
+    position: absolute;
+    z-index: 111;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    top: 0px;
+    text-align: center;
+    content: "";
+}
+/*Accordion Style One END CSS*/
+
+/*Accordion Style Two Start CSS*/
+.accordionStyle-two .panel{
+
+    box-shadow: none;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+.accordionStyle-two .panel-group .panel-heading {
+background: #f8f8f8 none repeat scroll 0 0;
+border-radius: 0;
+color: #373737;
+font-size: 24px;
+padding: 13px 37px;
+position: relative;
+}
+.accordionStyle-two .panel-group .panel-heading:hover{background:#F2F2F2}
+.accordionStyle-two h4.panel-title a {
+  display: block;
+}
+.accordionStyle-two #accordiontwo .panel {
+  background: #f8f8f8;
+}
+.accordionStyle-two .panel-group  h4.panel-title a.collapsed:after{
+    font-family: FontAwesome;
+    color: #AFAFAF;
+    font-size: 14px;
+    right: 0px;
+    position: absolute;
+    z-index: 111;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    top: 0px;
+    text-align: center;
+    content: "";
+}
+.accordionStyle-two .panel-group  h4.panel-title a:after {
+    font-family: FontAwesome;
+    color: #AFAFAF;
+    font-size: 14px;
+    left: 0px;
+    position: absolute;
+    z-index: 111;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    top: 0px;
+    text-align: center;
+    content: "";
+}
+/*Accordion Style Two END CSS*/
+
+/*Accordion Style Three Start CSS*/
+.accordionStyle-three .panel{
+  border: 1px solid #e4e4e4;
+    box-shadow: none;
+    border-radius: 0px;
+    margin-bottom: 5px;
+}
+.accordionStyle-three .panel-group .panel-heading {
+background: #f8f8f8 none repeat scroll 0 0;
+border-radius: 0;
+color: #373737;
+font-size: 24px;
+padding: 13px 37px;
+position: relative;
+}
+.accordionStyle-three .panel-group .panel-heading:hover{background:#F2F2F2}
+.accordionStyle-three h4.panel-title a {
+  display: block;
+}
+.accordionStyle-three #accordiontwo .panel {
+  background: #f8f8f8;
+}
+.accordionStyle-three .panel-group  h4.panel-title a.collapsed:after{
+background: #262626 none repeat scroll 0 0;
+color: #fff;
+content: "";
+font-family: FontAwesome;
+font-size: 14px;
+height: 25px;
+left: 3px;
+line-height: 26px;
+position: absolute;
+text-align: center;
+top: 10px;
+width: 25px;
+z-index: 111;
+}
+.accordionStyle-three .panel-group  h4.panel-title a:after {
+background: #444444 none repeat scroll 0 0;
+border-radius: 100%;
+color: #fff;
+content: "";
+font-family: FontAwesome;
+font-size: 14px;
+height: 25px;
+left: 0;
+line-height: 26px;
+position: absolute;
+text-align: center;
+top: 10px;
+width: 25px;
+z-index: 111;
+left: 3px;
+}
+/*Accordion Style Three END CSS*/
+
+/*Accordion Style Four Start CSS*/
+.accordionStyle-four .panel{
+border-radius: 0;
+box-shadow: none;
+margin-bottom: -6px;
+}
+.accordionStyle-four .panel-group .panel-heading {
+background: #fff none repeat scroll 0 0;
+border-color:#f0f0f0;
+border-radius: 0;
+color: #373737;
+font-size: 24px;
+padding: 13px 37px;
+position: relative;
+}
+.accordionStyle-four .panel-group .panel-heading:hover{background:#F2F2F2}
+.accordionStyle-four h4.panel-title a {
+  display: block;
+}
+.accordionStyle-four #accordiontwo .panel {
+  background: #f8f8f8;
+}
+.accordionStyle-four .panel-group  h4.panel-title a.collapsed:after{
+background: #262626 none repeat scroll 0 0;
+color: #fff;
+content: "\f0d7";
+font-family: FontAwesome;
+font-size: 14px;
+height: 25px;
+line-height: 25px;
+position: absolute;
+right: 3px;
+text-align: center;
+top: 10px;
+width: 25px;
+z-index: 111;
+}
+.accordionStyle-four .panel-group  h4.panel-title a:after {
+background: #444444 none repeat scroll 0 0;
+border-radius: 100%;
+color: #fff;
+content: "\f0d8";
+font-family: FontAwesome;
+font-size: 14px;
+height: 25px;
+line-height: 25px;
+position: absolute;
+text-align: center;
+top: 10px;
+width: 25px;
+z-index: 111;
+right: 3px;
+}
+/*Accordion Style Four END CSS*/
+
+/*Accordion Style Five Start CSS*/
+.accordionStyle-five .panel{
+border:none
+}
+.accordionStyle-five .panel-group .panel-heading {
+background: #F0F0F0 none repeat scroll 0 0;
+border-radius: 0;
+color: #373737;
+font-size: 24px;
+padding: 13px 16px;
+position: relative;
+}
+#accordionsix .panel-body {
+  background: #F2F2F2;
+}
+#accordionsix h4.panel-title a span {
+  margin-right: 10px;
+}
+#accordionfive h4.panel-title a span i {
+  color: #666666;
+}
+.accordionStyle-five .panel-group .panel-heading:hover{background:#F2F2F2}
+.accordionStyle-five h4.panel-title a {
+  display: block;
+}
+.accordionStyle-five #accordionfive .panel {
+  background: #f8f8f8;
+}
+.accordionStyle-five .panel-group  h4.panel-title a.collapsed:after{
+color: #666666;
+content: "\f0d7";
+font-family: FontAwesome;
+font-size: 14px;
+height: 30px;
+line-height: 30px;
+position: absolute;
+right: 3px;
+text-align: center;
+top: 5px;
+width: 30px;
+z-index: 111;
+}
+.accordionStyle-five .panel-group  h4.panel-title a:after {
+border-radius: 100%;
+color: #666666;
+content: "\f0d8";
+font-family: FontAwesome;
+font-size: 14px;
+height: 30px;
+line-height: 30px;
+position: absolute;
+text-align: center;
+top: 5px;
+width: 30px;
+z-index: 111;
+right: 3px;
+}
+/*Accordion Style Five END CSS*/
+
+/*Accordion Style Six Start CSS*/
+.accordionStyle-six .panel{
+border:none
+}
+.accordionStyle-six .panel-group .panel-heading {
+background: #F0F0F0 none repeat scroll 0 0;
+border-radius: 0;
+color: #373737;
+font-size: 24px;
+padding: 13px 16px;
+position: relative;
+}
+.accordionfive .panel-body {
+  background: #F2F2F2;
+}
+.accordionfive h4.panel-title a span {
+  margin-right: 10px;
+}
+.accordionStyle-six .panel-group .panel-heading:hover{background:#F2F2F2}
+.accordionStyle-six h4.panel-title a {
+  display: block;
+}
+.accordionStyle-six #accordionsix .panel {
+  background: #f8f8f8;
+}
+.accordionStyle-six .panel-group  h4.panel-title a.collapsed:after{
+color: #666666;
+content: "\f0d7";
+font-family: FontAwesome;
+font-size: 14px;
+height: 30px;
+line-height: 30px;
+position: absolute;
+right: 3px;
+text-align: center;
+top: 5px;
+width: 30px;
+z-index: 111;
+}
+.accordionStyle-six .panel-group  h4.panel-title a:after {
+border-radius: 100%;
+color: #666666;
+content: "\f0da";
+font-family: FontAwesome;
+font-size: 14px;
+height: 30px;
+line-height: 30px;
+position: absolute;
+text-align: center;
+top: 5px;
+width: 30px;
+z-index: 111;
+right: 3px;
+}
+/*Accordion Style six END CSS*/
+
+/*Accordion Style Seven Start CSS*/
+.accordionStyle-seven .panel{
+border:none
+}
+.accordionStyle-seven .panel-group .panel-heading {
+background: #ef4836 none repeat scroll 0 0;
+border-radius: 0;
+color: #fff;
+font-size: 24px;
+padding: 13px 16px;
+position: relative;
+}
+.accordionStyle-seven #accordionseven .panel-body {
+  background: #EF4836;
+} 
+.accordionStyle-seven #accordionseven .panel-body p{color:#fff}
+.accordionseven h4.panel-title a span {
+  margin-right: 10px;
+}
+.accordionStyle-seven .panel-group .panel-heading:hover{background:#F2F2F2;color:#000}
+.accordionStyle-seven h4.panel-title a {
+  display: block;
+}
+.accordionStyle-seven .panel {
+  background: #f8f8f8;
+}
+
+.accordionStyle-seven .panel-group  h4.panel-title a.collapsed:after{
+color: #fff;
+content: "\f0d7";
+font-family: FontAwesome;
+font-size: 14px;
+height: 30px;
+line-height: 30px;
+position: absolute;
+right: 3px;
+text-align: center;
+top: 5px;
+width: 30px;
+z-index: 111;
+}
+.accordionStyle-seven .panel-group  h4.panel-title a:after {
+border-radius: 100%;
+color: #fff;
+content: "\f0da";
+font-family: FontAwesome;
+font-size: 14px;
+height: 30px;
+line-height: 30px;
+position: absolute;
+text-align: center;
+top: 5px;
+width: 30px;
+z-index: 111;
+right: 3px;
+}
+/*Accordion Style Seven END CSS*/
